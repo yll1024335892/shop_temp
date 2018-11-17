@@ -1,0 +1,131 @@
+@import "compass/css3";
+//banner相关的样式
+.cover-page-index-slide{
+  .border-contain { position: relative; overflow: hidden;
+    .efhl-center{
+      width: 1210px; height: 425px; margin: 0 auto;
+      .relative { position: relative; height: 425px;
+        .nav_banner { width: 250px; height: 425px; position: absolute; left: 0; z-index: 10; display: block;
+          a { color: #333; }
+          .pull-nav{
+            position: relative; z-index: 2; background: rgba(0,0,0,.5);
+            li { height: 106.25px; color: #fff; font-size: 14px; position: relative;
+              a { color: #fff; display: inline-block; height: 106.25px; width: 270px; padding: 31px 0 30px 90px; }
+              a:hover { text-decoration: none }
+              h3 { font-size: 18px; line-height: 25px; }
+              p { height: 20px; margin: 5px 0; }
+            }
+            div { float: left; height: 85px; }
+          }
+        }
+        .location { position: absolute; left: -355px;
+          .hidden-beyond { position: relative; width: 1920px; height: 425px; overflow: hidden; }
+          #wrap { width: 1920px; height: 425px; position: relative; }
+        }
+      }
+    }
+  }
+  .icons{
+    padding-top: 20px; background-color: #F2F2F2; padding-bottom: 20px;
+    .box { width: 570px; margin: 0px auto -15px;
+      span { float: left; width: 80px; height: 5px; margin-right: 10px; background-color: #C1C1C1; cursor: pointer; }
+      span.now { background-color: #FC7878; }
+    }
+    #tips { width: 470px; margin: 0 auto;
+      li { float: left; margin-left: 10px; height: 5px; width: 80px; background: #C1C1C1; cursor: pointer;
+        span { display: block; height: 100%; width: 0; background: #FC7878; }
+      }
+      li.cur { background: #FC7878; }
+    }
+  }
+  a.show_pre,a.show_next { position: absolute; top: 186px; display: none; height: 55px; width: 55px; text-indent: -9999px; background-repeat: no-repeat; }
+  a.show_pre { left: 280px; background-image: url(../images/cover-page-slide-icon-left.png); }
+  a.show_next { right: 0px; background-image: url(../images/cover-page-slide-icon-right.png); }
+}
+.cover-page-index-slide:hover #tips li.cur { background: #FC7878; }
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .cover-page-index-slide a.show_pre { left: -35px; }
+  .cover-page-index-slide a.show_next { right: -35px; }
+}
+@media (min-width: 1367px) and (max-width: 1900px) {
+  .cover-page-index-slide a.show_pre { left: -75px; }
+  .cover-page-index-slide a.show_next { right: -75px; }
+}
+@media (min-width: 1901px) {
+  .cover-page-index-slide a.show_pre { left: 250px; }
+  .cover-page-index-slide a.show_next { right: 0px; }
+}
+
+
+
+
+//banner下面的add跳转
+@media (max-width: 1024px) {
+  body .cover-page-efhl-contain { padding: 20px; }
+  body .cover-page-efhl-contain .w484 { width: 474px; }
+  body .cover-page-efhl-contain .w241 { width: 231px; }
+  body .cover-page-efhl-contain img { margin-left: -5px; }
+}
+.cover-page-efhl-contain{
+  div { position: relative; height: 260px; overflow: hidden; background-color: #FF9D9D;
+    p { position: absolute; right: 0px; bottom: 0px; *right: -1px;*bottom: -1px;float: left; padding: 0; width: 112px; height: 24px; display: none;
+      a.click-more { position: absolute; left: -1px; bottom: -1px; *left: 0px;*bottom: 0px;z-index: 5; float: left; width: 112px; height: 24px; line-height: 24px; color: #fff; }
+      a.click-more:hover { text-decoration: none; }
+      i { position: absolute; left: -1px; bottom: -1px; *left: 0px;*bottom: 0px;width: 112px; height: 24px; background-color: #000; opacity: 0.5; filter: alpha(opacity=50); }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  body .cover-page-efhl-index .boutique { padding: 20px;
+    .canvas-div { width: 100%; }
+    .items-li { width: 284px; }
+    .items-li > a { width: 284px; height: 284px; }
+    .items-li img { max-height: 284px; max-width: 284px; vertical-align: inherit; }
+  }
+}
+.cover-page-efhl-index{
+  .boutique{
+    .canvas-div { float: left; width: 1230px; margin-top: 10px; overflow: hidden; }
+    .items { float: left; width: 1220px; }
+  }
+  .boutique-index{
+    h3 { border-bottom: 2px solid #FC7878; }
+    .more { position: initial; font-size: 12px; background: rgb(239, 75, 57) none repeat scroll 0% 0%; display: inline; float: right; line-height: 25px; height: 25px; width: 80px; margin: 6px 0px 2px 0px; text-align: center; @include  border-radius(10px);
+      a { color: #FFFFFF; }
+    }
+    .more:hover { background: #FC7878; }
+  }
+}
+
+//公共列表的样式
+.boutique{
+  .items-li { float: left; width: 292px; margin-right: 14px; margin-bottom: 11px; padding-bottom: 11px; background-color: #FFF;
+    .wrap_div { height: 54px; position: relative; z-index: 2; background: white;
+      p { height: 20px; overflow: hidden; text-align: center; font-size: 12px; color: #71cd9c; text-align: center; margin-top: 5px; height: 0px; overflow: hidden; _line-height: 0;
+        span { float: left; margin-left: 20px; }
+      }
+      div { position: absolute; left: 0; bottom: 0; z-index: 100; width: 100%; background: white; }
+    }
+    img { max-width: 294px; }
+    .title { float: left; width: 100%; padding-top: 10px; padding-bottom: 5px; font-weight: normal; line-height: 22px; text-align: center;
+      a { color: #333; }
+      a:hover { color: #EF353D; }
+    }
+    .description{
+      display: block; font-size: 12px; color: #919191; text-align: center;
+      a { display: inline-block; padding: 0 8px; height: 100%; color: #fff; background: #FE5F56; border-radius: 3px; }
+      a:hover { background: #ef353d; text-decoration: none; transition: all 0.8s ease 0s; color: #FFF; }
+    }
+    .price-attente{
+      margin-top: 5px;
+      .price { float: left; margin-left: 60px; font-size: 12px; color: #ef353d;
+        a { float: left; margin-left: 20px; font-size: 12px; color: #EF353D; }
+      }
+      .attente { float: right; margin-right: 60px; padding-left: 15px; font-size: 12px; color: #71cd9c; background: url(../images/cover-page-attente.png) no-repeat;  cursor: pointer; }
+    }
+  }
+  .items-li>a { display: block; width: 292px; height: 294px; text-align: center; line-height: 290px; overflow: hidden; }
+  .active { @include box-shadow(0 0 10px rgba(0,0,0,.2));}
+}

@@ -1,0 +1,107 @@
+@import "compass/css3";
+.efhl-livechat-girl{
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  opacity: 0;
+  z-index: 700;
+  @include transform(translateY(0));
+  cursor: pointer;
+  @include transition(all 1s cubic-bezier(0.86,0,0.07,1));
+  .efhl-livechat-control{
+    @include border-radius(50px 50px);
+    background-color: rgba(255,255,255,0.85);
+    @include box-shadow(0 5px 10px 0 rgba(35,50,56,0.3));
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    .girl-holder{
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      vertical-align: top;
+      z-index: 50;
+    }
+    .girl {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      @include border-radius(50%);
+    }
+    .girl_smiling {
+      position: absolute;
+    }
+    .girl_hover {
+      @include opacity(0);
+    }
+  }
+  .animated-circles {
+    position: absolute;
+    top: 0;
+    .circle {
+      background: rgba(26,183,68,0.25);
+      width: 60px;
+      height: 60px;
+      @include border-radius(50%);
+      position: absolute;
+      z-index: 49;
+      @include transform(scale(1));
+    }
+  }
+  .animated-circles.animated{
+    .c-1 {
+      @include animation(2000ms scaleToggleOne cubic-bezier(0.25,0.46,0.45,0.94) forwards);
+    }
+    .c-2 {
+      @include animation(2500ms scaleToggleTwo cubic-bezier(0.25,0.46,0.45,0.94) forwards);
+    }
+    .c-3 {
+      @include animation(3000ms scaleToggleThree cubic-bezier(0.25,0.46,0.45,0.94) forwards);
+    }
+  }
+
+}
+.efhl-livechat-girl.with-callback{
+  .efhl-livechat-control__element_chat a {
+    padding-right: 10px;
+  }
+  .efhl-livechat-control__element_chat .tm-icon {
+    display: inline-block;
+  }
+  .efhl-livechat-control__element_callback {
+    display: inline-block
+  }
+  .efhl-livechat-control__element_callback a {
+    padding-left: 10px;
+  }
+}
+.efhl-livechat-girl.animation-stopped .circle {
+  @include opacity(0);
+}
+.efhl-livechat-girl:focus {
+  outline: 0;
+}
+.efhl-livechat-girl.animated {
+  @include opacity(1);
+  @include transform(translateY(-40px));
+}
+
+@include keyframes(scaleToggleOne){
+  0% {@include transform(scale(1));}
+  50%{@include transform(scale(2));}
+  100%{@include transform(scale(1));}
+}
+@include keyframes(scaleToggleTwo){
+    0% {@include transform(scale(1));}
+    20%{@include transform(scale(1));}
+    60%{@include transform(scale(2));}
+    100%{@include transform(scale(1));}
+}
+@include keyframes(scaleToggleThree){
+    0% {@include transform(scale(1));}
+    33%{@include transform(scale(1));}
+    66%{@include transform(scale(2));}
+    100%{@include transform(scale(1));}
+}
+

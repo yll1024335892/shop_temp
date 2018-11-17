@@ -1,0 +1,56 @@
+.efhl-livechat-girl { position: fixed; bottom: 0; right: 40px; opacity: 0; z-index: 700; -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); cursor: pointer; -moz-transition: all 1s cubic-bezier(0.86, 0, 0.07, 1); -o-transition: all 1s cubic-bezier(0.86, 0, 0.07, 1); -webkit-transition: all 1s cubic-bezier(0.86, 0, 0.07, 1); transition: all 1s cubic-bezier(0.86, 0, 0.07, 1); }
+.efhl-livechat-girl .efhl-livechat-control { -moz-border-radius: 50px 50px; -webkit-border-radius: 50px; border-radius: 50px 50px; background-color: rgba(255, 255, 255, 0.85); -moz-box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.3); -webkit-box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.3); box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.3); font-size: 0; margin: 0; padding: 0; }
+.efhl-livechat-girl .efhl-livechat-control .girl-holder { position: relative; display: inline-block; width: 60px; height: 60px; vertical-align: top; z-index: 50; }
+.efhl-livechat-girl .efhl-livechat-control .girl { position: relative; width: 60px; height: 60px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
+.efhl-livechat-girl .efhl-livechat-control .girl_smiling { position: absolute; }
+.efhl-livechat-girl .efhl-livechat-control .girl_hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+.efhl-livechat-girl .animated-circles { position: absolute; top: 0; }
+.efhl-livechat-girl .animated-circles .circle { background: rgba(26, 183, 68, 0.25); width: 60px; height: 60px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; position: absolute; z-index: 49; -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+.efhl-livechat-girl .animated-circles.animated .c-1 { -moz-animation: 2000ms scaleToggleOne cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; -webkit-animation: 2000ms scaleToggleOne cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; animation: 2000ms scaleToggleOne cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+.efhl-livechat-girl .animated-circles.animated .c-2 { -moz-animation: 2500ms scaleToggleTwo cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; -webkit-animation: 2500ms scaleToggleTwo cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; animation: 2500ms scaleToggleTwo cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+.efhl-livechat-girl .animated-circles.animated .c-3 { -moz-animation: 3000ms scaleToggleThree cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; -webkit-animation: 3000ms scaleToggleThree cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; animation: 3000ms scaleToggleThree cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; }
+
+.efhl-livechat-girl.with-callback .efhl-livechat-control__element_chat a { padding-right: 10px; }
+.efhl-livechat-girl.with-callback .efhl-livechat-control__element_chat .tm-icon { display: inline-block; }
+.efhl-livechat-girl.with-callback .efhl-livechat-control__element_callback { display: inline-block; }
+.efhl-livechat-girl.with-callback .efhl-livechat-control__element_callback a { padding-left: 10px; }
+
+.efhl-livechat-girl.animation-stopped .circle { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+
+.efhl-livechat-girl:focus { outline: 0; }
+
+.efhl-livechat-girl.animated { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; -moz-transform: translateY(-40px); -ms-transform: translateY(-40px); -webkit-transform: translateY(-40px); transform: translateY(-40px); }
+
+@-moz-keyframes scaleToggleOne { 0% { -moz-transform: scale(1); transform: scale(1); }
+  50% { -moz-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); transform: scale(1); } }
+@-webkit-keyframes scaleToggleOne { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(2); transform: scale(2); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes scaleToggleOne { 0% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+  50% { -moz-transform: scale(2); -ms-transform: scale(2); -webkit-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); } }
+@-moz-keyframes scaleToggleTwo { 0% { -moz-transform: scale(1); transform: scale(1); }
+  20% { -moz-transform: scale(1); transform: scale(1); }
+  60% { -moz-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); transform: scale(1); } }
+@-webkit-keyframes scaleToggleTwo { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  20% { -webkit-transform: scale(1); transform: scale(1); }
+  60% { -webkit-transform: scale(2); transform: scale(2); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes scaleToggleTwo { 0% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+  20% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+  60% { -moz-transform: scale(2); -ms-transform: scale(2); -webkit-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); } }
+@-moz-keyframes scaleToggleThree { 0% { -moz-transform: scale(1); transform: scale(1); }
+  33% { -moz-transform: scale(1); transform: scale(1); }
+  66% { -moz-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); transform: scale(1); } }
+@-webkit-keyframes scaleToggleThree { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  33% { -webkit-transform: scale(1); transform: scale(1); }
+  66% { -webkit-transform: scale(2); transform: scale(2); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes scaleToggleThree { 0% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+  33% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+  66% { -moz-transform: scale(2); -ms-transform: scale(2); -webkit-transform: scale(2); transform: scale(2); }
+  100% { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); } }

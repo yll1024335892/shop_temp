@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.cover-page-list-contain .place { line-height: 52px; color: #333; font-family: "宋体"; width: 1210px; margin: 0px auto; }
+.cover-page-list-contain .place a, .cover-page-list-contain .place code { color: #333; }
+.cover-page-list-contain .contain-efhl { width: 1225px; position: relative; left: 0; margin: 0 auto; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl { width: 1210px; color: #454545; padding: 8px 0; font-size: 14px; margin: 0 auto 20px auto; background: #fff; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box { line-height: 11px; padding: 11px 0; margin: 0 20px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort { padding: 10px 0px; border-bottom: 1px #eee dashed; margin: 0 auto; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort a.activity { color: #ef353d; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .hide-left { float: left; width: 40px; height: 40px; background-color: #FC7878; cursor: pointer; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort dt { float: left; margin-top: 11px; margin-right: 10px; font-size: 12px; color: #333; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort dl { width: 1210px; margin: 0 auto; height: 40px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .sort-icons { margin-top: 5px; font-size: 12px; color: #333; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .sort-icons span { line-height: 30px; width: 900px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .sort-icons a { float: left; color: #333; text-align: center; margin-top: 7px; padding-right: 20px; padding-bottom: 3px; padding-left: 20px; line-height: 20px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .sort-icons a:hover { text-decoration: none; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .sort-icons a.now { color: #fff; margin-top: 7px; padding-right: 25px; padding-bottom: 3px; padding-left: 10px; white-space: nowrap; background: #FE5F56 url(../images/gou.png) no-repeat right center; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .totals { margin-top: 20px; margin-right: 50px; font-size: 12px; }
+.cover-page-list-contain .contain-efhl .mbxzb_fl .mbxzb_box .sort .totals i { font-style: normal; color: #DE0000; }
+
+.boutique { padding-top: 30px; padding-left: 9px; }
+.boutique .items-li { float: left; width: 292px; margin-right: 14px; margin-bottom: 11px; padding-bottom: 11px; background-color: #FFF; }
+.boutique .items-li .wrap_div { height: 54px; position: relative; z-index: 2; background: white; }
+.boutique .items-li .wrap_div p { height: 20px; overflow: hidden; text-align: center; font-size: 12px; color: #71cd9c; text-align: center; margin-top: 5px; height: 0px; overflow: hidden; _line-height: 0; }
+.boutique .items-li .wrap_div p span { float: left; margin-left: 20px; }
+.boutique .items-li .wrap_div div { position: absolute; left: 0; bottom: 0; z-index: 100; width: 100%; background: white; }
+.boutique .items-li img { max-width: 294px; }
+.boutique .items-li .title { float: left; width: 100%; padding-top: 10px; padding-bottom: 5px; font-weight: normal; line-height: 22px; text-align: center; }
+.boutique .items-li .title a { color: #333; }
+.boutique .items-li .title a:hover { color: #EF353D; }
+.boutique .items-li .description { display: block; font-size: 12px; color: #919191; text-align: center; }
+.boutique .items-li .description a { display: inline-block; padding: 0 8px; height: 100%; color: #fff; background: #FE5F56; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.boutique .items-li .description a:hover { background: #ef353d; text-decoration: none; transition: all 0.8s ease 0s; color: #FFF; }
+.boutique .items-li .price-attente { margin-top: 5px; }
+.boutique .items-li .price-attente .price { float: left; margin-left: 60px; font-size: 12px; color: #ef353d; }
+.boutique .items-li .price-attente .price a { float: left; margin-left: 20px; font-size: 12px; color: #EF353D; }
+.boutique .items-li .price-attente .attente { float: right; margin-right: 60px; padding-left: 15px; font-size: 12px; color: #71cd9c; background: url(../images/cover-page-attente.png) no-repeat; cursor: pointer; }
+.boutique .items-li > a { display: block; width: 292px; height: 294px; text-align: center; line-height: 290px; overflow: hidden; }
+.boutique .active { -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.pages li { float: left; }
+.pages li a { padding-left: 15px; padding-right: 15px; color: #333; }
+.pages li a i.page-right { background-position: 0px 15px; }
+.pages li a i.page-bg { display: inline-block; line-height: 1; position: relative; top: 1px; width: 10px; height: 15px; overflow: hidden; background: url("../images/page_bg.png"); }
+.pages li a:hover { color: #333; }
+.pages li a:hover i.page-right { background-position: 10px 15px; }
+.pages li a:hover i.page-bg { background-position: 9px 0px; }
+.pages li:first-child { margin-left: 0px; }
+.pages li.active span { padding-left: 15px; padding-right: 15px; color: #333; }
+.pages li.active span:hover { background-color: #CE3434; }
+.pages li.active a { background-color: #FE5F56; border-color: #FE5F56; }
+.pages li.active a:hover { background-color: #F05A50; border-color: #FE5F56; }
