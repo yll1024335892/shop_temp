@@ -64,6 +64,19 @@ li { list-style-type: none; }
     .handle { float: left; width: 250px; height: 48px; font-size: 14px; background-color: #414141;
       i { float: left; width: 18px; height: 13px; margin-top: 17px; margin-right: 15px; margin-left: 43px; background: url(../images/cover-page-nav.png) no-repeat; }
     }
+    .nav_banner { width: 250px; height: 425px; position: absolute; left: 0; z-index: 10; display: block; top:48px;
+      a { color: #333; }
+      .pull-nav{
+        position: relative; z-index: 2; background: rgba(0,0,0,.5);
+        li { height: 106.25px; color: #fff; font-size: 14px; position: relative;
+          a { color: #fff; display: inline-block; height: 106.25px; width: 210px; padding: 30px 0 30px 30px; }
+          a:hover { text-decoration: none }
+          h3 { font-size: 18px; line-height: 25px; }
+          p { height: 20px; margin: 5px 0; }
+        }
+        div { float: left; height: 85px; }
+      }
+    }
   }
   .channel { float: left; width: 100px; font-size: 14px; text-align: center; }
   .channel:hover, .nav .channel-now { background-color: #414141; }
@@ -73,6 +86,9 @@ li { list-style-type: none; }
     }
     span { float: left; margin-right: 15px; color: #fff; }
     strong { font-style: normal; font-weight: normal; }
+  }
+  .cart:hover .car_ul{
+    height: 300px !important; opacity: 1 !important;
   }
 }
 
@@ -108,7 +124,8 @@ li { list-style-type: none; }
         background-color: #E4F0CA; }
       .template-community { width: 83px; margin-top: 20px; margin-left: 33px; padding-top: 95px; padding-bottom: 22px; color: #333; text-align: center; background: url(../images/cover-page-tang-4.png) no-repeat; }
       .items { width: 145px; margin-left: 30px; padding-left: 30px; padding-top: 20px; padding-bottom: 20px; border-left: 1px solid #fff; font-size: 12px;
-        a { line-height: 27px; color: #333; text-indent: 10px; background: url(../images/cover-page-point.png) no-repeat left center;}
+        a { line-height: 27px; color: #333; text-indent: 10px; }
+        a:hover { color: #ef353d; }
       }
     }
     .knowledge{
@@ -117,12 +134,13 @@ li { list-style-type: none; }
         i{background: no-repeat url(../images/cover-page-tang-2.png) 0px 5px;}
         .more{
           width: 50px; height: 24px; margin-top: 5px; font-weight: normal; line-height: 22px; color: #333; text-align: center; border-radius: 3px;
-          span { float: right; padding-right: 8px; background: url(../images/trangle-right.png) no-repeat right 9px;  }
+          span { float: right; padding-right: 8px;  }
         }
         .more:hover span { text-decoration: underline; cursor: pointer; }
       }
       dd { background-color: #FAE6D9; padding-top: 20px; padding-bottom: 20px;
-        b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; background: url(../images/cover-page-point.png) no-repeat 23px center; }
+        b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px;}
+        a:hover { color: #ef353d; }
       }
     }
     .letters{
@@ -131,12 +149,13 @@ li { list-style-type: none; }
         i{background: no-repeat url(../images/cover-page-tang-3.png) 0px 5px;}
         .more{
           width: 50px; height: 24px; margin-top: 5px; font-weight: normal; line-height: 22px; color: #333; text-align: center; border-radius: 3px;
-          span { float: right; padding-right: 8px; background: url(../images/trangle-right.png) no-repeat right 9px;  }
+          span { float: right; padding-right: 8px;  }
         }
         .more:hover span { text-decoration: underline; cursor: pointer; }
       }
       dd { background-color: #D6EEF2; padding-top: 20px; padding-bottom: 20px;
-        b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; background: url(../images/cover-page-point.png) no-repeat 23px center; }
+        b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px;}
+        a:hover { color: #ef353d; }
       }
     }
   }
@@ -148,6 +167,7 @@ li { list-style-type: none; }
       strong { float: left; margin-top: 10px; font-size: 18px; color: #FC726F; }
       a.service_kefu { float: left; padding-left: 26px; font-size: 12px; color: #92928F; background-image: url(../images/cover-page-service-2.png); background-repeat: no-repeat; background-position: left center; display: block; width: 80px; *width: 60px;
         height: 20px; line-height: 20px; margin-top: 20px; margin-right: 10px; }
+
     }
   }
   .efhl-link{
@@ -161,7 +181,7 @@ li { list-style-type: none; }
 }
 //版权相关的尾部
 .cover-page-efhl-foot{
-  padding-top: 30px; font-size: 12px; color: #3A3A3A; text-align: center; background-color: #181818;
+  padding: 30px 0px; font-size: 12px; color: #3A3A3A; text-align: center; background-color: #181818;
   .copyright{
     color: #888;
     a { padding-right: 5px; color: #888; }

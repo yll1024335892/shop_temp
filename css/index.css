@@ -1,15 +1,6 @@
 .cover-page-index-slide .border-contain { position: relative; overflow: hidden; }
 .cover-page-index-slide .border-contain .efhl-center { width: 1210px; height: 425px; margin: 0 auto; }
 .cover-page-index-slide .border-contain .efhl-center .relative { position: relative; height: 425px; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner { width: 250px; height: 425px; position: absolute; left: 0; z-index: 10; display: block; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner a { color: #333; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav { position: relative; z-index: 2; background: rgba(0, 0, 0, 0.5); }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav li { height: 106.25px; color: #fff; font-size: 14px; position: relative; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav li a { color: #fff; display: inline-block; height: 106.25px; width: 270px; padding: 31px 0 30px 90px; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav li a:hover { text-decoration: none; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav li h3 { font-size: 18px; line-height: 25px; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav li p { height: 20px; margin: 5px 0; }
-.cover-page-index-slide .border-contain .efhl-center .relative .nav_banner .pull-nav div { float: left; height: 85px; }
 .cover-page-index-slide .border-contain .efhl-center .relative .location { position: absolute; left: -355px; }
 .cover-page-index-slide .border-contain .efhl-center .relative .location .hidden-beyond { position: relative; width: 1920px; height: 425px; overflow: hidden; }
 .cover-page-index-slide .border-contain .efhl-center .relative .location #wrap { width: 1920px; height: 425px; position: relative; }

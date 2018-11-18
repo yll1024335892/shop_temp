@@ -64,6 +64,15 @@ li { list-style-type: none; }
 .nav .nav-menus { position: relative; z-index: 105; }
 .nav .nav-menus .handle { float: left; width: 250px; height: 48px; font-size: 14px; background-color: #414141; }
 .nav .nav-menus .handle i { float: left; width: 18px; height: 13px; margin-top: 17px; margin-right: 15px; margin-left: 43px; background: url(../images/cover-page-nav.png) no-repeat; }
+.nav .nav-menus .nav_banner { width: 250px; height: 425px; position: absolute; left: 0; z-index: 10; display: block; top: 48px; }
+.nav .nav-menus .nav_banner a { color: #333; }
+.nav .nav-menus .nav_banner .pull-nav { position: relative; z-index: 2; background: rgba(0, 0, 0, 0.5); }
+.nav .nav-menus .nav_banner .pull-nav li { height: 106.25px; color: #fff; font-size: 14px; position: relative; }
+.nav .nav-menus .nav_banner .pull-nav li a { color: #fff; display: inline-block; height: 106.25px; width: 210px; padding: 30px 0 30px 30px; }
+.nav .nav-menus .nav_banner .pull-nav li a:hover { text-decoration: none; }
+.nav .nav-menus .nav_banner .pull-nav li h3 { font-size: 18px; line-height: 25px; }
+.nav .nav-menus .nav_banner .pull-nav li p { height: 20px; margin: 5px 0; }
+.nav .nav-menus .nav_banner .pull-nav div { float: left; height: 85px; }
 .nav .channel { float: left; width: 100px; font-size: 14px; text-align: center; }
 .nav .channel:hover, .nav .nav .channel-now { background-color: #414141; }
 .nav .cart { float: right; width: 154px; background-color: #4E4E4E; padding-left: 20px; }
@@ -71,6 +80,7 @@ li { list-style-type: none; }
 .nav .cart a img { width: 78px; }
 .nav .cart span { float: left; margin-right: 15px; color: #fff; }
 .nav .cart strong { font-style: normal; font-weight: normal; }
+.nav .cart:hover .car_ul { height: 300px !important; opacity: 1 !important; }
 
 @media (max-width: 1024px) { body .cover-page-efhl-index .efhl-link-us { padding: 20px; }
   body .cover-page-efhl-index .efhl-link-us .service { margin-left: 6px; }
@@ -88,21 +98,24 @@ li { list-style-type: none; }
 .cover-page-efhl-index .church .reputation dd { padding-top: 13px; padding-bottom: 5px; *padding-bottom: 13px; background-color: #E4F0CA; }
 .cover-page-efhl-index .church .reputation .template-community { width: 83px; margin-top: 20px; margin-left: 33px; padding-top: 95px; padding-bottom: 22px; color: #333; text-align: center; background: url(../images/cover-page-tang-4.png) no-repeat; }
 .cover-page-efhl-index .church .reputation .items { width: 145px; margin-left: 30px; padding-left: 30px; padding-top: 20px; padding-bottom: 20px; border-left: 1px solid #fff; font-size: 12px; }
-.cover-page-efhl-index .church .reputation .items a { line-height: 27px; color: #333; text-indent: 10px; background: url(../images/cover-page-point.png) no-repeat left center; }
+.cover-page-efhl-index .church .reputation .items a { line-height: 27px; color: #333; text-indent: 10px; }
+.cover-page-efhl-index .church .reputation .items a:hover { color: #ef353d; }
 .cover-page-efhl-index .church .knowledge { margin-left: 26px; }
 .cover-page-efhl-index .church .knowledge .title i { background: no-repeat url(../images/cover-page-tang-2.png) 0px 5px; }
 .cover-page-efhl-index .church .knowledge .title .more { width: 50px; height: 24px; margin-top: 5px; font-weight: normal; line-height: 22px; color: #333; text-align: center; border-radius: 3px; }
-.cover-page-efhl-index .church .knowledge .title .more span { float: right; padding-right: 8px; background: url(../images/trangle-right.png) no-repeat right 9px; }
+.cover-page-efhl-index .church .knowledge .title .more span { float: right; padding-right: 8px; }
 .cover-page-efhl-index .church .knowledge .title .more:hover span { text-decoration: underline; cursor: pointer; }
 .cover-page-efhl-index .church .knowledge dd { background-color: #FAE6D9; padding-top: 20px; padding-bottom: 20px; }
-.cover-page-efhl-index .church .knowledge dd b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; background: url(../images/cover-page-point.png) no-repeat 23px center; }
+.cover-page-efhl-index .church .knowledge dd b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; }
+.cover-page-efhl-index .church .knowledge dd a:hover { color: #ef353d; }
 .cover-page-efhl-index .church .letters { margin-left: 26px; }
 .cover-page-efhl-index .church .letters .title i { background: no-repeat url(../images/cover-page-tang-3.png) 0px 5px; }
 .cover-page-efhl-index .church .letters .title .more { width: 50px; height: 24px; margin-top: 5px; font-weight: normal; line-height: 22px; color: #333; text-align: center; border-radius: 3px; }
-.cover-page-efhl-index .church .letters .title .more span { float: right; padding-right: 8px; background: url(../images/trangle-right.png) no-repeat right 9px; }
+.cover-page-efhl-index .church .letters .title .more span { float: right; padding-right: 8px; }
 .cover-page-efhl-index .church .letters .title .more:hover span { text-decoration: underline; cursor: pointer; }
 .cover-page-efhl-index .church .letters dd { background-color: #D6EEF2; padding-top: 20px; padding-bottom: 20px; }
-.cover-page-efhl-index .church .letters dd b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; background: url(../images/cover-page-point.png) no-repeat 23px center; }
+.cover-page-efhl-index .church .letters dd b a { float: left; width: 100%; font-size: 12px; font-weight: normal; line-height: 27px; color: #333; text-indent: 33px; }
+.cover-page-efhl-index .church .letters dd a:hover { color: #ef353d; }
 .cover-page-efhl-index .efhl-link-us { margin-top: 30px; padding-top: 15px; padding-bottom: 10px; border-top: 1px solid #DFDFDF; }
 .cover-page-efhl-index .efhl-link-us .service { width: 240px; float: left; margin-left: 20px; }
 .cover-page-efhl-index .efhl-link-us .service b { display: block; margin-top: 10px; color: #333; }
@@ -114,6 +127,6 @@ li { list-style-type: none; }
 .cover-page-efhl-index .efhl-link dd a { float: left; margin-right: 20px; font-size: 12px; line-height: 25px; color: #606060; }
 .cover-page-efhl-index .efhl-link dd a:hover { color: #ef353d; }
 
-.cover-page-efhl-foot { padding-top: 30px; font-size: 12px; color: #3A3A3A; text-align: center; background-color: #181818; }
+.cover-page-efhl-foot { padding: 30px 0px; font-size: 12px; color: #3A3A3A; text-align: center; background-color: #181818; }
 .cover-page-efhl-foot .copyright { color: #888; }
 .cover-page-efhl-foot .copyright a { padding-right: 5px; color: #888; }
