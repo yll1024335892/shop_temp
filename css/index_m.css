@@ -7,6 +7,8 @@
 .detail-contain { margin-top: 60px; }
 .detail-contain .efhl-shop-detail p { height: 40px; overflow: hidden; font-size: 16px; margin-bottom: 20px; }
 .detail-contain .efhl-shop-detail h4 { font-size: 18px; font-weight: bold; color: #FC7878; margin: 20px 0px; }
+.detail-contain .efhl-detail { margin: 20px 0px 0px; padding-bottom: 20px; border-bottom: 1px solid #ddd; }
+.detail-contain .efhl-detail img { width: 100%; }
 
 .footer-buy .foot-left { width: 80%; }
 .footer-buy .foot-left div { display: block; color: #fff; background: #FC7878; height: 50px; line-height: 50px; text-align: center; font-size: 16px; }
