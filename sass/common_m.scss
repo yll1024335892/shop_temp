@@ -1,0 +1,12 @@
+@import "compass/css3";
+
+
+.shop-card{
+  .caption{
+    h4{ font-size: 14px;}
+    h4.price{
+       color: #FC7878; font-weight: bold;
+    }
+    p{ height: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+  }
+}
