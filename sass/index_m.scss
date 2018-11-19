@@ -1,9 +1,56 @@
 @import "compass/css3";
-.banner-contain{
-   margin-top: 50px;
+
+.banner-contain {
+  margin-top: 50px;
 }
-.category-title{
+
+.category-title {
   height: 40px;
   display: block;
   width: 100%;
+}
+
+//分页的样式调整
+.page-contain {
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #FC7878;
+    border-color: #FC7878;
+  }
+}
+
+//商品详细页面的样式
+.detail-contain {
+  margin-top: 60px;
+  .efhl-shop-detail {
+    p {
+      height: 40px;
+      overflow: hidden;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #FC7878;
+      margin: 20px 0px;
+    }
+  }
+  .efhl-detail {
+
+  }
+}
+
+.footer-buy {
+  .foot-left {
+      width: 80%;
+    div{
+       display: block; color: #fff; background: #FC7878; height: 50px; line-height: 50px; text-align: center; font-size: 16px;
+    }
+  }
+  .foot-right {
+      width: 20%;
+    div{
+      display: block; color: #fff; background: #333; height: 50px; line-height: 50px; text-align: center;font-size: 16px;
+    }
+  }
 }
