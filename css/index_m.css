@@ -1,3 +1,14 @@
 .banner-contain { margin-top: 50px; }
 
 .category-title { height: 40px; display: block; width: 100%; }
+
+.page-contain .pagination > .active > a, .page-contain .pagination > .active > span, .page-contain .pagination > .active > a:hover, .page-contain .pagination > .active > span:hover, .page-contain .pagination > .active > a:focus, .page-contain .pagination > .active > span:focus { background-color: #FC7878; border-color: #FC7878; }
+
+.detail-contain { margin-top: 60px; }
+.detail-contain .efhl-shop-detail p { height: 40px; overflow: hidden; font-size: 16px; margin-bottom: 20px; }
+.detail-contain .efhl-shop-detail h4 { font-size: 18px; font-weight: bold; color: #FC7878; margin: 20px 0px; }
+
+.footer-buy .foot-left { width: 80%; }
+.footer-buy .foot-left div { display: block; color: #fff; background: #FC7878; height: 50px; line-height: 50px; text-align: center; font-size: 16px; }
+.footer-buy .foot-right { width: 20%; }
+.footer-buy .foot-right div { display: block; color: #fff; background: #333; height: 50px; line-height: 50px; text-align: center; font-size: 16px; }
